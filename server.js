@@ -1,14 +1,14 @@
 var http = require("http");
 
-var a = 10;
-var b = 20;
+var a = 100;
+var b = 200;
 var c = a+b;
 var msg = "Sum is: " + c;
 
 if (c==30) {
     msg += "<br> C is 30";
 } else {
-    msg += "C is not 30";
+    msg += "<br> C is not 30";
 }
 
 http.createServer(function (req, res) {
