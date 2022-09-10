@@ -3,10 +3,10 @@ var router = express.Router();
 
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'mydb'
+  host: 'sql8.freemysqlhosting.net',
+  user: 'sql8518556',
+  password: 'Trcp1H7fb7',
+  database: 'sql8518556'
 });
 connection.connect(function (err) {
   if (!err) {
